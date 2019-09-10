@@ -1,0 +1,43 @@
+{
+  "title": "Code Grind",
+  "structure": "12/4-4-4",
+  "rows": [
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-12",
+          "widgets": [
+            {
+              "type": "randommsg",
+              "config": {},
+              "title": "Customer Cases",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1568121243647-28"
+            }
+          ],
+          "cid": "1568121259215-29"
+        }
+      ]
+    },
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-4",
+          "widgets": [],
+          "cid": "1568121259218-30"
+        },
+        {
+          "styleClass": "col-md-4",
+          "widgets": [],
+          "cid": "1568121259219-31"
+        },
+        {
+          "styleClass": "col-md-4",
+          "widgets": [],
+          "cid": "1568121259220-32"
+        }
+      ]
+    }
+  ],
+  "titleTemplateUrl": "../src/templates/dashboard-title.html"
+}

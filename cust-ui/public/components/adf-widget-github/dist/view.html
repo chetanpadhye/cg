@@ -1,0 +1,14 @@
+<style>
+    label {
+        display: block;
+    }
+</style>
+<label ng-repeat="role in roles">
+    <input type="checkbox" checklist-model="user.roles" checklist-value="role" ng-model="justAnotherCheckedVar">
+    {{role.text}}
+</label>
+<div>
+    <textarea type="text" ng-model="text" name="text" style="width: 100%;height: 70px;"></textarea>
+    <button type="button" class="btn btn-primary">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="addNew()"></span> Add</button>
+</div>

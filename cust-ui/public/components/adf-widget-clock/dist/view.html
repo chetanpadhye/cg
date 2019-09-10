@@ -1,0 +1,59 @@
+<!-- <div class="clock">
+    <div class="clock-time">{{clock.date}} - {{clock.time}}</div>
+</div>
+ -->
+
+<style>
+    .highlightedText {
+        background-color: yellow;
+    }
+</style>
+<div class="list-group">
+    <a href="javascript:void(0)" class="list-group-item list-group-item-action flex-column align-items-start ">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small>3 days ago</small>
+        </div>
+        <p class="mb-1">
+            <div ng-bind-html="highlight('Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget
+                risus varius blandit.', 'blandit' )">
+
+            </div>
+
+        </p>
+        <small>Donec id elit non mi porta.</small>
+    </a>
+    <a href="javascript:void(0)" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Telephonic conversation</h5>
+            <small class="text-muted">3 days ago</small>
+        </div>
+        <p class="mb-1">
+            <div class="row">
+                <div class="col-md-10">
+                    <audio controls style="width: 70%">
+                        <!--   <source src="horse.ogg" type="audio/ogg"> -->
+                        <source src="http://www.schillmania.com/projects/soundmanager2/demo/_mp3/rain.mp3"
+                            type="audio/mpeg">
+                    </audio></div>
+
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-primary">Convert to Text</button></div>
+            </div>
+        </p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+    </a>
+    <a href="javascript:void(0)" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small class="text-muted">3 days ago</small>
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget
+            metus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus.
+            Maecenas sed diam eget risus varius blandit.
+        </p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+    </a>
+</div>
+
+<a href="javascript:void(0)" class="btn btn-primary">Go analyse case</a>

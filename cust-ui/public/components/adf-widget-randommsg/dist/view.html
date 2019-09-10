@@ -1,0 +1,46 @@
+<!-- <blockquote>
+    <p>{{msg.text}}</p><small>{{msg.author}}</small>
+</blockquote> -->
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                <a href="javascript:void(0)">
+                    Lead
+                </a>
+            </th>
+            <th>
+                <a href="javascript:void(0)">
+                    Case Id
+                </a>
+            </th>
+
+            <th>
+                <a href="javascript:void(0)">
+                    Agent
+                </a>
+            </th>
+
+            <th>
+                <a href="javascript:void(0)">
+                    Status
+                </a>
+            </th>
+
+            <th>
+                <a href="javascript:void(0)">
+
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="x in table">
+            <td>{{ x.name }}</td>
+            <td>{{ x.name }}</td>
+            <td>{{ x.name }}</td>
+            <td>{{ x.name }}</td>
+            <td><button type="button" class="btn btn-primary" ng-click="linkClicked(x);">{{ x.link }}</button></td>
+        </tr>
+    </tbody>
+</table>

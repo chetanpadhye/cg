@@ -1,0 +1,68 @@
+{
+  "title": "Case Details",
+  "structure": "12/6-6",
+  "rows": [
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-8",
+          "widgets": [
+            {
+              "type": "clock",
+              "config": {
+                "timePattern": "HH:mm:ss",
+                "datePattern": "YYYY-MM-DD"
+              },
+              "title": "Case Review",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1568122702759-5"
+            }
+          ],
+          "cid": "1568128709481-5"
+        },
+        {
+          "styleClass": "col-md-4",
+          "widgets": [
+            {
+              "type": "githubAuthor",
+              "config": {},
+              "title": "Follow up and action items",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1568129220512-5"
+            },
+            {
+              "type": "linklist",
+              "config": {},
+              "title": "Key Phrases",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1568128770190-1"
+            },
+            {
+              "type": "weather",
+              "config": {},
+              "title": "Sentiment",
+              "titleTemplateUrl": "../src/templates/widget-title.html",
+              "wid": "1568129102465-4"
+            }
+          ],
+          "cid": "1568128709483-6"
+        }
+      ]
+    },
+    {
+      "columns": [
+        {
+          "styleClass": "col-md-6",
+          "widgets": [],
+          "cid": "1568128709483-6"
+        },
+        {
+          "styleClass": "col-md-6",
+          "widgets": [],
+          "cid": "1568128709484-7"
+        }
+      ]
+    }
+  ],
+  "titleTemplateUrl": "../src/templates/dashboard-title.html"
+}

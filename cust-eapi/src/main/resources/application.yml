@@ -1,0 +1,5 @@
+amazonProperties:
+  endpointUrl: https://s3.ap-south-1.amazonaws.com
+  accessKey: AKIAQM2SNTY2SSTMJDYN
+  secretKey: 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
+  bucketName: codegrind2019
